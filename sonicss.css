@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(219, 228, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(98, 136, 250);
+}
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(2, 2, 101);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+    font-size: large;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(2, 2, 101);
+}
+nav a:hover{
+    color: crimson;
+}
+.one{
+    background-image:url("1.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    padding: 60px 60px;
+    color: aliceblue;
+    text-shadow: 10px 5px 10px rgb(2, 2, 101);
+    font-size: xx-large;
+}
+.two{
+    text-align: center;
+    padding: 60px;
+    color:rgb(6, 63, 112);
+    font-size: x-large;
+}
+button{
+    background-color:  rgb(98, 136, 250);
+    border: none;
+    color: white;
+    font-size: large;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.images{
+    text-align: center;
+    padding: 35px;
+    color: rgb(98, 136, 250);
+    font-size: x-large;
+    
+}
+img {
+    border: 1px solid #307adb;
+    padding: 5px;
+    width: 270px;
+    height: 200px;
+  }
+  table{
+    background-position: center;
+  }
+  button:hover{
+    color: rgb(35, 7, 128);
+  }
+  u{
+    color:rgb(98, 136, 250);
+  }
+  hr{
+    border: 15px solid  rgb(98, 136, 250);
+  }
+  footer{
+    padding: 10px 20px;
+    text-align: center;
+    color:  rgb(242, 242, 245);
+    background-color:  rgb(98, 136, 250);
+    background-size: cover;
+  }
+  .try{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+  }
+  h2,h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

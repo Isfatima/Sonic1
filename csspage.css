@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.c1{
+    background-color: rgb(222, 245, 228);
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid rgb(16, 96, 63); */
+    padding: 0.5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.c1.a{
+    text-align: center;
+}
+#c2{
+    text-align: center;
+}
+a[href="Google.com"]{
+    background-color: rgba(1, 126, 57, 0.777);
+    color: aliceblue;
+    background-position-x: right;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+div{
+    display: flex;
+    border: 2px solid rgba(164, 215, 187, 0.777);
+    margin: 5px;
+    padding: 20px;
+}
+p{
+    border: inherit;
+}
